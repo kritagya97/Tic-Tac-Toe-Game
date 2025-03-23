@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    height:100%;
+    width:100%;
+    text-align: center;
+    background-color: #accbe1;
+    color:white;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container{
+    visibility: hidden;
+    height:200px;
+    width: 300px;
+    font-size:40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: gold;
+    /* border: 1px solid black; */
+}
+
+.container{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black; */
+    
+}
+.game{  
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    column-gap:4px ;
+    /* border: 1px solid black; */
+}
+.box{
+    min-height: 80px;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#637081;
+    border:none;
+    border-radius: 8px;
+    color: white;
+    font-size: 39px;
+}
+.reset_btn{
+    width: 120px;
+    height:40px;
+    background-color: #637081;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+}
+.new_btn{
+    visibility:hidden;
+    width: 125px;
+    height: 40px;
+    background-color: #637081;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+}
