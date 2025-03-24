@@ -7,7 +7,7 @@ body{
     height:100%;
     width:100%;
     text-align: center;
-    background-color: #accbe1;
+    background-color: #000814;
     color:white;
     padding-top: 20px;
     display: flex;
@@ -21,7 +21,7 @@ body{
     width: 300px;
     font-size:40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: bold;
     color: gold;
     /* border: 1px solid black; */
 }
